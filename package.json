@@ -1,0 +1,49 @@
+{
+    "name": "node-ok-bot-api",
+    "version": "0.0.7",
+    "description": "node ok bot api is a js library for work with odnoklassniki bot api",
+    "main": "bundles/node-ok-bot-api.umd.js",
+    "scripts": {
+        "build": "ts-node --project tsconfig.scripts.json scripts/build.ts"
+    },
+    "keywords": [
+        "ok-bot",
+        "js-ok-api",
+        "ok api",
+        "bot",
+        "odnoklassniki bot",
+        "apiok.ru"
+    ],
+    "author": "Benmoussa Amine",
+    "license": "ISC",
+    "devDependencies": {
+        "chokidar": "^3.3.1",
+        "ts-node": "^9.1.1",
+        "tslint": "^6.1.3",
+        "tslint-config-airbnb": "^5.11.2",
+        "@rollup/plugin-commonjs": "^11.0.1",
+        "@rollup/plugin-node-resolve": "^7.0.0",
+        "@rollup/plugin-typescript": "^2.1.0",
+        "@types/node": "^13.7.1",
+        "rollup": "^1.29.0",
+        "rollup-plugin-copy": "^3.1.0",
+        "rollup-plugin-json": "^4.0.0",
+        "rollup-plugin-terser": "^5.3.0",
+        "rollup-plugin-typescript2": "^0.26.0"
+    },
+    "dependencies": {
+        "@types/axios": "^0.14.0",
+        "@types/form-data": "^2.5.0",
+        "axios": "^0.21.1",
+        "form-data": "^4.0.0",
+        "typescript": "^4.2.2",
+        "tslib": "^2.1.0"
+    },
+    "module": "fesm5/node-ok-bot-api.js",
+    "es2015": "fesm2015/node-ok-bot-api.js",
+    "esm5": "esm5/node-ok-bot-api.js",
+    "esm2015": "esm2015/node-ok-bot-api.js",
+    "fesm5": "fesm5/node-ok-bot-api.js",
+    "fesm2015": "fesm2015/node-ok-bot-api.js",
+    "typings": "node-ok-bot-api.d.ts"
+}
